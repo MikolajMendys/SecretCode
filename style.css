@@ -1,0 +1,593 @@
+body
+{
+background: black;
+}
+
+#pojemnik
+{
+	margin: 0 auto;
+	width: 800px;
+	height: 1000px;
+	background: grey;
+	border: 3px solid white;
+}
+
+#nazwa
+{
+	margin-top: 10px;
+	width: 794px;
+	height: 30px;
+	border: 3px solid black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+}
+
+#pasek
+{
+	border: 3px solid black;
+	border-top-color: grey;
+	margin: 0 auto;
+	width: 700px;
+	height: 50px;
+	background: grey;
+}
+
+#start
+{
+	background-color: #888888;
+	font-weight: bold;
+	font-size: 30px;
+	margin-top: 4px;
+	cursor: pointer;
+	float: left;
+	margin-left: 20px;
+	height: auto;
+	width: auto;
+	border: 2px solid black;
+}
+
+#czas
+{
+	float: right;
+	margin-right: 20px;
+	height: 40px;
+	width: 90px;
+	border: 2px solid black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+	
+}
+
+#gra
+{
+	margin-top: 55;
+	height: 60%;
+	width: 100%;
+	color: black;
+	font-size: 40px;
+}
+
+#hasla
+{
+	margin-top: 10px;
+	width: 280px;
+	height: 70px;
+	border: 5px solid black;
+	font-weight: bold;
+	border-radius: 15px;
+}
+
+#haslo
+{
+	margin-top: 10px;
+	width: 280px;
+	height: 420px;
+	border: 5px solid black;
+	font-weight: bold;
+	border-radius: 15px;
+}
+
+#przyciski
+{
+	margin-top: 10px;
+	width: 280px;
+	height: 240px;
+	border: 5px solid black;
+	border-radius: 15px;
+}
+
+#instrukcje
+{
+	margin: 10px;
+	border: 5px solid black;
+	border-radius: 20px;
+	width: 280px;
+	height: auto;
+	font-weight: bold;
+	font-align: center;
+	font-size: 18px;
+	
+}
+
+#przycisk11
+{
+	margin: 10px;
+	margin-left: 30px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	border-radius: 50px;
+	float: left;
+	background: purple;
+}
+
+#przycisk11:hover
+{
+	border: 5px solid white;
+	cursor: pointer;
+}
+
+#przycisk12
+{
+	margin: 10px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	border-radius: 50px;
+	float: left;
+	background: pink;
+}
+
+#przycisk12:hover
+{
+	border: 5px solid white;
+	cursor: pointer;
+}
+
+#przycisk13
+{
+	margin: 10px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	border-radius: 50px;
+	float: left;
+	background: blue;
+}
+
+#przycisk13:hover
+{
+	border: 5px solid white;
+	cursor: pointer;
+}
+
+#przycisk21
+{
+	margin: 10px;
+	margin-left: 30px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	border-radius: 50px;
+	float: left;
+	background: red;
+}
+
+#przycisk21:hover
+{
+	border: 5px solid white;
+	cursor: pointer;
+}
+
+#przycisk22
+{
+	margin: 10px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	border-radius: 50px;
+	float: left;
+	background: orange;
+}
+
+#przycisk22:hover
+{
+	border: 5px solid white;
+	cursor: pointer;
+}
+
+#przycisk23
+{
+	margin: 10px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	border-radius: 50px;
+	float: left;
+	background: yellow;
+}
+
+#przycisk23:hover
+{
+	border: 5px solid white;
+	cursor: pointer;
+}
+
+#przycisk31
+{
+	margin: 10px;
+	margin-left: 30px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	border-radius: 50px;
+	float: left;
+	background: green;
+}
+
+#przycisk31:hover
+{
+	border: 5px solid white;
+	cursor: pointer;
+}
+
+#przycisk32
+{
+	margin: 10px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	border-radius: 50px;
+	float: left;
+	background: lightgreen;
+}
+
+#przycisk32:hover
+{
+	border: 5px solid white;
+	cursor: pointer;
+}
+
+#przycisk33
+{
+	margin: 10px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	border-radius: 50px;
+	float: left;
+	background: white;
+}
+
+#przycisk33:hover
+{
+	border: 5px solid white;
+	cursor: pointer;
+}
+
+#hasla1
+{
+	text-align: center;
+	font-size: 12px;
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	float: left;
+	border-radius: 50px;
+}
+
+#hasla2
+{
+	font-align: center;
+	font-size: 12px;
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	float: left;
+	border-radius: 50px;
+}
+
+#hasla3
+{
+	font-align: center;
+	font-size: 12px;
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	float: left;
+	border-radius: 50px;
+}
+
+#hasla4
+{
+	font-align: center;
+	font-size: 12px;
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	float: left;
+	border-radius: 50px;
+}
+
+#haslo1
+{
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	float: left;
+	border-radius: 50px;
+}
+
+#haslo2
+{
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	float: left;
+	border-radius: 50px;
+}
+
+#haslo3
+{
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	float: left;
+	border-radius: 50px;
+}
+
+#haslo4
+{
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	float: left;
+	border-radius: 50px;
+}
+
+#haslo5
+{
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	float: left;
+	border-radius: 50px;
+}
+
+#haslo6
+{
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	float: left;
+	border-radius: 50px;
+}
+
+#haslo7
+{
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	float: left;
+	border-radius: 50px;
+}
+
+#haslo8
+{
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	float: left;
+	border-radius: 50px;
+}
+
+#haslo9
+{
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	float: left;
+	border-radius: 50px;
+}
+
+#haslo10
+{
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	float: left;
+	border-radius: 50px;
+}
+
+#haslo11
+{
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	float: left;
+	border-radius: 50px;
+}
+
+#haslo12
+{
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	float: left;
+	border-radius: 50px;
+}
+
+#haslo13
+{
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	float: left;
+	border-radius: 50px;
+}
+
+#haslo14
+{
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	float: left;
+	border-radius: 50px;
+}
+
+#haslo15
+{
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	float: left;
+	border-radius: 50px;
+}
+
+#haslo16
+{
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	float: left;
+	border-radius: 50px;
+}
+
+#haslo17
+{
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	float: left;
+	border-radius: 50px;
+}
+
+#haslo18
+{
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	float: left;
+	border-radius: 50px;
+}
+
+#haslo19
+{
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	float: left;
+	border-radius: 50px;
+}
+
+#haslo20
+{
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	float: left;
+	border-radius: 50px;
+}
+
+#haslo21
+{
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	float: left;
+	border-radius: 50px;
+}
+
+#haslo22
+{
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	float: left;
+	border-radius: 50px;
+}
+
+#haslo23
+{
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	float: left;
+	border-radius: 50px;
+}
+
+#haslo24
+{
+	margin: 5px;
+	width: 50px;
+	height: 50px;
+	border: 5px solid black;
+	font-weight: bold;
+	float: left;
+	border-radius: 50px;
+}
